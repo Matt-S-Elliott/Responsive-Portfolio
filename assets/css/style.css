@@ -228,18 +228,20 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .container {
-    max-width: 100%;
+  .container nav {
+    margin-right: 25px;
   }
-  #masthead {
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
 }
-@media only screen and (max-width: 640px) {
-  .container {
 
+@media only screen and (max-width: 640px) {
+  #main-container {
+    padding-top: 0px;
   }
+
+  .main-section {
+    padding-top: 0px;
+  }
+
   #masthead {
     position: static;
   }
