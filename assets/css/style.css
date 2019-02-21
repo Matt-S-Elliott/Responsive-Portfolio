@@ -227,7 +227,7 @@ input[type=submit] {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
   .container nav {
     margin-right: 25px;
   }
@@ -242,7 +242,32 @@ input[type=submit] {
     padding-top: 0px;
   }
 
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
   #masthead {
     position: static;
+    height: 150px;
+  }
+
+  #logo {
+    width: 100%;
+    margin: auto;
+  }
+
+  nav {
+    width: 278px;
+    float: none;
+    margin: auto;
+  }
+
+  nav a {
+    margin-top: 20px;
+  }
+
+  .work {
+    width: 100%;
   }
 }
